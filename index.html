@@ -1,0 +1,2838 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/sanji.jpg?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-sanji.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-sanji.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="每一个认真的技术人心底都有一个技术英雄梦">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kei&#39;s Wonderland">
+<meta property="og:url" content="https://keimewo.site/index.html">
+<meta property="og:site_name" content="Kei&#39;s Wonderland">
+<meta property="og:description" content="每一个认真的技术人心底都有一个技术英雄梦">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kei&#39;s Wonderland">
+<meta name="twitter:description" content="每一个认真的技术人心底都有一个技术英雄梦">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="https://keimewo.site/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Kei's Wonderland</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Kei's Wonderland</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/10/23/生活是场热闹/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/10/23/生活是场热闹/" class="post-title-link" itemprop="url">生活是场热闹</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-10-23 20:43:25" itemprop="dateCreated datePublished" datetime="2017-10-23T20:43:25+08:00">2017-10-23</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/观影/" itemprop="url" rel="index"><span itemprop="name">观影</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>《饮食男女》是一部不适合在远离饭点的时间观看的影片。当然这不是想说它是一部下饭片——这可能是对面前食物的不尊重——毕竟这部影片会精彩得让你对正准备入口的食物失去兴趣。</p>
+<p>时隔几个月才开始敲guan影hou评gan，可我对电影开场的印象还很鲜活：偌大的厨房，布置得井然有序，各色厨具一应俱全。一个略微佝背的人影在这方天地里自如操持，身手娴熟地烹制菜肴。这场景一下子就抓住了我的注意力（和胃)。</p>
+<p>几个特写镜头：案板上精细的切菜刀工展示，煤气灶上冒着蒸汽的锅，一口铁锅内翻飞的大勺，莫名地给人一种热腾腾的欢喜。</p>
+<p>看开场的架势，不免会猜测是要大摆筵席，结果不过是日常一顿晚餐——说日常似乎也不妥当，毕竟普通人家平时的晚餐是不会有满汉全席那般丰盛，除非掌勺者是退休后闲不住手的顶级大厨，就像电影里那样。</p>
+<p>只是准备过程那样风风火火的一顿饭，吃的过程却有点冷清——让荧幕外的我垂涎的美味佳肴，在影片中大厨的三个女儿眼中不过寻常。晚餐不是令他们体会味觉愉悦的时刻，反而是规矩和束缚——每周日的晚餐是大厨家的家宴，是一家人团聚和分享的必备仪式。</p>
+<p>然而团聚和分享并不总是令人舒心的，家庭琐事、儿女情长、人伦礼义等等，五味杂陈，都揉进一顿饭里了。</p>
+<p>观影时忍不住要赞叹编剧的巧思，竟能想到将饮食和家长里短相融汇。家事如菜肴，各有一番滋味；处理家事也同烹调菜肴，有许多讲究——要了解食材，要注意搭配，要掌握火候，要有耐心。甚至生活本身，也和做菜一般：整体是一件普通的小事，过程中有起伏，节奏有快有慢，时而沉寂，时而喧嚣。</p>
+<p>影片中的大厨在烹制菜肴时，十分用心和认真，看着就有股热闹劲儿。而大厨家中发生的大大小小的事件，“鸡飞狗跳”，外人无需处理，只是看着也是热闹的。</p>
+<p>大概生活就该是这么场热闹。普通、琐碎，无所谓体面，重要是认真地活，跟随自己的心意，好好走一遭。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/09/07/从0到N/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/09/07/从0到N/" class="post-title-link" itemprop="url">从0到N</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-09-07 18:07:56" itemprop="dateCreated datePublished" datetime="2017-09-07T18:07:56+08:00">2017-09-07</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/阅读/" itemprop="url" rel="index"><span itemprop="name">阅读</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>《失控：机器、社会与经济的新生物学》一书，通过解析现有的技术变革、社会组织形态与经济运行中蕴含的生物逻辑，对其未来发展进行展望。</p>
+<p>生物逻辑，是生命的诞生、成长、繁衍与多样化，是从无到有、从简单到复杂、从可控到失控、从有序到稳定的非稳态的过程，即从0到N。生物是大自然的创造，生物逻辑则是大自然的馈赠——人类可以像自然学习，从无创造有、构建复杂性。</p>
+<p>作者在书中最后一章总结了无中生有的造物九律。九律均为组织原则，适用于作者在全书探讨的机器、社会和经济的运作等宏观层面，同样地对于个体和企业组织的行动管理等微观层面具有深刻的启迪意义。</p>
+<ul>
+<li>分布式状态</li>
+</ul>
+<p>从个体到组织，从意识到行为，无一不能被分布到众多更小的单元上。分布式状态的特征是去中心化，网络化，和多维度并行。</p>
+<p>于个体，我们的生命形态本身即是分布式状态。大脑并非中心控制，而是诸多小单元各司其职、发挥功能。理解这种分布式状态，将指导我们更好地挖掘和锻炼自己的特长——仅仅需要局部而非整体的提升，将某一小单元的能力最大化，同时分布式状态之间的交互作用可能带来惊喜。</p>
+<p>于组织，参照生物的分布式状态将带来进化壮大：一方面，在组织架构上，去中心化，提高决策效率，更好地发挥协同效应；一方面，在业务发展上，多线并行，网络式铺开战略布局，构筑复杂的有机生态。</p>
+<ul>
+<li>自下而上的控制</li>
+</ul>
+<p>在分布式状态要求去中心化时，自上而下的中央集权控制也将分崩离析，取而代之的是网络模式自下而上的控制。自下而上的控制意味着反馈和适应，从行动中获得反馈，进而思考，再有下一步的行动，快速地变化和适应。</p>
+<p>我们时常陷入一种“自上而下”控制的困局——过度思虑而迟迟不能行动。想要有所得，必须先行动，从最基础做起，由行动带动思考，再由思考引导行动。</p>
+<p>组织要想实现全面的控制，其实反而需要先“失控”——提供集体智慧发挥的空间，当底层的基本单位相互连接且以并行方式开展行动，一切都会自然而然地发生，产生无秩序的有序。</p>
+<ul>
+<li>培养递增收益</li>
+</ul>
+<p>资源的占有方，将通过对资源的配置吸引获取更多的资源。个人的优势特长，会在不断地利用展示过程中得到强化巩固，企业亦然。企业的品牌优势、客户群优势，在良好地运营下会带来滚雪球效应——这也可以解释在当下的市场竞争中，企业们努力在做的就是树立品牌、争抢客群。</p>
+<ul>
+<li>模块化生长</li>
+</ul>
+<p>生物进化的逻辑是从简单到复杂，一个复杂的系统要由简单的模块组装而成。个人的成长，需要学识经验的积累，由对单一的模块的认知逐步搭建成有体系的认知系统，再将知识转化为实践的能力。而组织的成长，也是由简入繁，一步步做加法。模块化生长的要义在于，复杂性的培养需要时间，罗马非一日建成。同时，简单模块的组装，次序也很重要，模块之间应该相辅相成。个人知识和经验的不匹配，企业经营和管理的不匹配，都难以实现进步。</p>
+<ul>
+<li>边缘最大化</li>
+</ul>
+<p>关注边缘，异变往往出自边缘。</p>
+<p>就个体而言，边缘可能意味着思维中的盲点。通过找到盲点并加以攻克，个人的创造力能得到更好的释放。</p>
+<p>就组织而言，在分布式状态下，各组成单元间相对独立，对边缘的忽视并不会导致组织的衰亡。但关注边缘的意义在于使得各个单元乃至整体更具有活力，富有弹性和适应力，同时边缘往往是创新的源泉。</p>
+<ul>
+<li>礼待错误</li>
+</ul>
+<p>凯文·凯利在书中指出，进化可以被看作是对系统错误的管理。进化是一种学习，从错误中学习。</p>
+<p>个体和组织的行为，其本质都可以视为试错行为。宽容错误，再从错误中反思总结，是通往正确的必经之路。一个成功的企业，理应有包容的文化——不可能永远只做正确的事，而要知道如何做正确的事，恰恰这种“知道”是必须从错误中得来的教训。</p>
+<ul>
+<li>不求目标最优，但求目标众多</li>
+</ul>
+<p>多元化和纵向深入其实并不矛盾，因为评价指标绝非单一的。既然标准是多指向的，目标也没有最优，同样是多指向的。</p>
+<p>个体以全才或专才为目标没有优劣之分。即使是选择成为专才，同样有多维的评价角度，而非唯一的精准衡量。</p>
+<p>组织的扩张，是一个复杂化的过程，无论多元化还是垂直发展都应该有多个目标。复杂化可能带来效率的降低（相较于简单组织），但也带来了生命力和稳定性等方面的优化。</p>
+<ul>
+<li>谋求持久的不均衡</li>
+</ul>
+<p>不均衡（不停的变化）是危机四伏，均衡（恒久不变）意味着固步自封。在不均衡与均衡之间把握一个度，即持久的不均衡，不坠落也不停止，保持持续的发展。这意味着时常更新，更新目标，从内部和外界获得反馈，主动迎接挑战和变化。</p>
+<ul>
+<li>变自生变</li>
+</ul>
+<p>谋求持久的不均衡，需要变化，而在分布式状态、自下而上的控制下，变化将催生变化。底层的变化相互连接，触发整体的变化，而整体的变化，又使得那些带来底层变化的规则发生变化。个体和组织的进化，最终需要的是自我变化的能力。不单纯依赖外界的刺激，而是内部驱动自身改变，方能应对万变，立于不败之地。</p>
+<p>自我变化的能力如何获取？这需要时间的积淀，是在与外界互动的过程中学习。个人以为，那些存在了百年以上的企业，可以被认为是掌握了自我变化的规则，而非被动地改变以应对外界的挑战。</p>
+<p>作者认为，对造物九律的坚守将大获成功。但作者未能阐明的是，无中生有的时间消耗和艰巨程度。大自然孕育生命用了数十亿年，机器、社会和经济借鉴自然生物逻辑必将面临诸多挑战，路漫漫其修远兮。而对于个体和企业组织，从0到N的启发实际是从1到N，是对成长进化的认知和管理，是使个人最大化自我价值，使企业成就伟大梦想。</p>
+<p>后记：一篇敷衍的八股式“书评”，不嫌丢人现眼地贴出来，就当给自己的警示。书其实没有太读懂，还需要反复咀嚼，有了新感想再更。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/08/27/真心/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/08/27/真心/" class="post-title-link" itemprop="url">真心</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-27 22:49:37" itemprop="dateCreated datePublished" datetime="2017-08-27T22:49:37+08:00">2017-08-27</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天在两地奔波，天气有好有坏，心情亦然。</p>
+<p>明明还有一堆事情要忙，却忍不住要将这些小心思敲出来。</p>
+<p>明日七夕。在晃悠悠的公交车上，想到要和某花度过3个情人节了（还是在一起的时间不够长，连这样的事也要记，真傻）。其实真正在一起过的还只有去年的2.14。一想起来又是满心愧疚，自己当时的举动太不成熟，辜负了某花一番心意。</p>
+<p>某花实在是个温柔的人。还记得刚在一起时，他认真地告诉我，希望为我做到更多，使得对我的好和对其他朋友的好有区分度（这也太可爱了吧）。回想过去的一年多，这家伙没有食言。点点滴滴，都是真心。我也希望他能肯定，真心没有错付。</p>
+<blockquote>
+<p>只愿君心似我心，定不负相思意。</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/08/13/合适/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/08/13/合适/" class="post-title-link" itemprop="url">合适</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-08-13 21:05:33" itemprop="dateCreated datePublished" datetime="2017-08-13T21:05:33+08:00">2017-08-13</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>爱情里的合适就是，我在意的，你都能做到，你做不到的，我也都不在意。</p>
+</blockquote>
+<p>这远比所谓“门当户对”更为贴切和重要。</p>
+<p>周末结束，某花该离开了。在车站道别时还能若无其事，却在返程的公交车上默默红了眼眶，回来后又是突然就落泪不止。不知道在难过些什么，也是不懂自己怎么就变成了爱哭鬼（其实一直都是吧）。</p>
+<p>年少时曾幻想过从一而终的爱情。而后由所见所闻渐渐知晓，感情之事多有变数，除情变之外还有种种因素可致使一段关系终结。直至遇到某花，带着不确定开始恋爱，一步步走向确定——这家伙就是要找的那个人啊。从前的想法又浮现心头，希望这段唯一的感情细水长流。另一方面，大抵是某种自卑心态作祟，怀疑自己不配得到眷顾，对关系的持久度有悲观预期。两股心思拧在一块，就是异常的患得患失——在一起时开心得飞起，分开时莫名低落抑郁；害怕失去，极力想要抓住些什么；内心有守护的勇气，也有犹疑的胆怯；渴望同对方的人生并轨，又唯恐束缚了彼此或丧失了自己。</p>
+<p>这种神经质，折磨自己，也苦了某花。分开一个多月，隔三差五就闹脾气，要求提了不少。事后冷静想想，也觉得自己可笑。我爱的这个人，从来不是靠我耍性子提的那些要求打动我的呀。为了维护脆弱的安全感，放大无须在意的小事，吵架难过，真是舍本逐末了（对任性的我，某花依然迁就——怎么会有这么可爱的人？！真的找不到第二个人能这么合拍了！）。原本分开之所以会闹，也是因为在一起太开心了，只想永远和这个人呆在一起。</p>
+<blockquote>
+<p>你天生就适合我的灵魂。</p>
+</blockquote>
+<p>感觉就是找到了灵魂伴侣。话就此撂下，打脸另说。从一而终仍旧是要撞大运的事，但是我确幸遇到了最棒的人，经历了最好的爱情。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/07/23/通达/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/07/23/通达/" class="post-title-link" itemprop="url">通达</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-23 11:49:50" itemprop="dateCreated datePublished" datetime="2017-07-23T11:49:50+08:00">2017-07-23</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今日晴，日头甚艳，无风。</p>
+<p>有时候觉得爸妈冥顽不化、不可理喻，有时候又觉得他们至情至性、通达明理。</p>
+<p>周六爸妈来看我，顺便住了一晚。起床后俩人长吁短叹，说床垫太软，睡得腰酸背痛。</p>
+<p>下楼吃早餐，在电梯上我和他们介绍，现在住的这个公寓主打年轻人乐居，不准养宠物、不准四十岁以上的人入住。我爸听完傲娇地一扭头，</p>
+<blockquote>
+<p>怪不得床垫那么软，睡得我们不舒服。原来就是不适合四十岁以上的住。</p>
+</blockquote>
+<p>不禁莞尔。想想爸妈对待年岁衰老实在是通达。</p>
+<p>犹记得上个月月底，和爸妈一起搭乘地铁。坐在我妈边上有个小孩很好动，孩子的妈妈就站在边上教育，</p>
+<blockquote>
+<p>别乱动，小心踢到奶奶了。</p>
+</blockquote>
+<p>我听了暗自奇怪：咦，我妈边上啥时候又坐了一位老奶奶么？探头一看，顿时心里一阵不是滋味。</p>
+<p>回到宾馆我开始吐槽，不满地铁上那位女士居然让她小孩要喊我妈奶奶。我妈倒是一脸坦然，</p>
+<blockquote>
+<p>这很正常啊。早些年就有亲戚家的小孩喊我姨奶奶了。</p>
+</blockquote>
+<p>一时语塞。从没想过一个女人到了五十上下就会被当作奶奶级人物了（我妈看着明明还是个女学生模样！）；我还没有结婚生子，妈妈却要被别的小孩子喊作奶奶了（原以为像我这样打算不婚，我妈就会一直停留在三十来岁的定位）……</p>
+<p>想起高中时，在家无意中翻到爸妈结婚时的合照。看着照片里年轻的面庞，眼泪不知不觉就下来了。我很惶恐，生怕自己辜负了这对夫妇。</p>
+<p>作为旁观者，我为岁月流逝对爸妈做的一切感到忿忿。而爸妈，作为当局者，却是意外地豁达。年岁的增长，一方面使他们的一些思想不可避免地归囿陈旧，一方面却又使他们看待一些问题更加通透。</p>
+<p>前几日，和我妈闲聊，提起现在房价很高买不起。我妈对我循循善诱，</p>
+<blockquote>
+<p>不着急，那四十岁前买房就好了嘛。到时候总是买得起的吧？</p>
+</blockquote>
+<p>突然被老妈灌了一碗鸡汤，先干为敬。</p>
+<p>愿他们总能保持这样通达。要向他们学习。也希望自己多多努力，不让他们失望。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/07/20/善意/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/07/20/善意/" class="post-title-link" itemprop="url">善意</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-20 17:18:59" itemprop="dateCreated datePublished" datetime="2017-07-20T17:18:59+08:00">2017-07-20</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>昨日晴，天气宜人。</p>
+<p>部门项目大楼即将营业，最近在拍摄宣传照。昨天的宣传主题是安保人员，需要拍摄他们接待客户时的形象。项目运营同事从公司一楼逛到三楼愣是没抓到壮丁，在四楼看到我时两眼放光，</p>
+<blockquote>
+<p>没说客户得是男的吧？<br>嗯，女生也行。</p>
+</blockquote>
+<p>于是我光荣地成为一枚人肉背景。而主角，是一名看着非常和善正派的安保大叔。除了拍摄在大堂迎接引导的场景，还拍摄了下车引导的场景——从一辆（向某位总借的）宝马车里走出来。</p>
+<p>拍摄过程就十来分钟。结束时，大叔用极富磁性的声音对我说，</p>
+<blockquote>
+<p>明年的今天，你开着刚才那辆车，再来这里。</p>
+</blockquote>
+<p>莫名就被灌了一大碗鸡汤，感动不已。却不知道如何回答，过了几秒憋出一句 ，</p>
+<blockquote>
+<p>借您吉言，哈哈！</p>
+</blockquote>
+<p>(哎我这社交情商没救了）。</p>
+<p>想来大叔并不知道我丰富的内心活动。我要自我激励，希望日后有机会（衣锦还乡），再对他道一句感谢。</p>
+<p>嗯，总是被陌生人的善意感动呀。愿自己也能传递善意，将生活温柔款待。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/07/19/无自由时，如何恋爱/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/07/19/无自由时，如何恋爱/" class="post-title-link" itemprop="url">无自由时，如何恋爱</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-19 23:17:24" itemprop="dateCreated datePublished" datetime="2017-07-19T23:17:24+08:00">2017-07-19</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/观影/" itemprop="url" rel="index"><span itemprop="name">观影</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>《龙虾》是一部有意思的电影，有意思到我可以忍受央视6套违和的翻译腔（但我一定会刷一次原声的）。</p>
+<center>----------以下含有大量剧透，不喜请绕道，谢谢----------</center> 
+在影片构筑的世界里，官方认为单身是公害，只有情侣们有权在城市生活。而成为情侣也不是看眼缘或感觉，而是需要严格般配——个人特征（从外形到性格到喜恶）匹配，所谓共同点。一旦落单，不论是失恋还是丧偶，独自上街时便会被无处不在的警察凑上来盘问，继而被送到一家特殊的酒店“接受改造”。
+
+<p>酒店收留所有单身人士居住45天，在这45天里，单身人士若找到相配对的伴侣，即被宣告成为情侣，二人由各自的单人间搬入情侣间居住，享受酒店为情侣养成计划（自己瞎掰的）提供的服务，接着被认证为夫妻，便能返回城市生活。相反地，在45天里未能脱单者，将被送入变形室，变为其事先选择的一种动物——绝大多数人会选择变成狗。</p>
+<p>男主David在和妻子离婚后被接到了酒店。当酒店经理询问他没能配对成功的话会选择变成何种动物时，他的回答是龙虾。David的理由是龙虾寿命长，终生能够生育。至此影片首次点题。而看到这儿，我的第一反应是《老友记》中Phoebe对瑞秋说过，罗斯是瑞秋的龙虾——龙虾一旦恋爱，就会白头偕老。个人揣测这才是男主的心声：渴望从一而终的伴侣。</p>
+<p>在酒店居住期间，单身人士必须参加狩猎活动——追捕在森林里藏匿的独身者（孤独者），捕捉人数可以用来延长相应的居住时间（寻找配对期）。</p>
+<p>影片塑造了不少让人印象深刻的角色：和David同期入住酒店的跛足男，为躲避被变形的悲惨命运，选择伪造共同点，用以头抢墙来造成流鼻血的方式与一名时常会流鼻血的女子结为情侣；狩猎技艺了得的冷血女，只同与自己一般冷漠的人配对，她通过追捕大量的独身者使自己的单身居住时间延长至150天以上；爱吃黄油饼干的女人，因未能匹配成功，在最后一天从一楼纵身一跃结束了生命；和流鼻血女自幼是好友的金发女，二人是同时入住酒店。金发女未能匹配成功，在最后一天（可以自由安排行程），她提出要看电影《伴我同行》（描述友情的电影），并与来看望自己的流鼻血女决裂……</p>
+<p>而在酒店之外，森林之中，流窜着一群独身者。他们的组织则是另一个极端：不容许暧昧和恋情的生发（一经发现，处以极刑）。组织的领袖更是不断谋划和实施着攻入酒店，拆散那些只是因为共同点而非真爱而结合的情侣（抽象意义而言，是戳破爱情的虚幻）。</p>
+<p>David在酒店住满了45天，并没有匹配成功，在最后一日逃进森林。在这儿，他遇到了一个近视女人，两人陷入了爱河，却要极力遮掩以免被发觉。</p>
+<p>在影片构造的世界里，人们其实是没有自由的。官方强制要以情侣形式生活，独身者联盟则强制单身。当自由丧失时，人们如何恋爱？</p>
+<p>David和近视女人发明了肢体密语来互诉衷肠。而爱情的化学反应是明显的，难以掩盖。独身者联盟首领还是发现了他们的恋情，在他们计划一起逃往城市前耍了手段破坏了他们的共同点（近视）——这时影片对于爱情的讨论愈加严肃沉重了。</p>
+<p>没有表面化的共同点，爱情如何维系？David的回应是，自我牺牲。不同于跛足男人为了脱单（或者说是苟且）而“牺牲”，David是为厮守而牺牲，忠实于自己的感情。</p>
+<p>影片有许多令人回味之处。一是不自由的设定。极权之下，感情的收放都难以自主。当稳定的关系变成了生存条件，人如何忠于自己的内心去开始和维系一段关系？无自由时，如何恋爱?一是对于共同点的讽刺（也是由不自由的设定延伸而来）。现实中人们会说，两个人能走到一起，是因为有相似之处。而在影片里，这一点被无限放大——唯有存在共同点（表面可测的）的两个人在一起才能被官方认证为情侣。所谓共同点，对于一段关系而言究竟有多重要？爱上与自己不同的人，是否注定不可能长久？</p>
+<p>正如影片以开放式结局告终，对于片名龙虾和片中有关爱情的种种隐喻，电影都只是抛出了线头，似乎无意铺陈完整的线索让人解读，留下了更多遐想的空间。也许常看常新，在不同心境下观赏此片会有大相径庭的看法。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/07/09/变化/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/07/09/变化/" class="post-title-link" itemprop="url">变化</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-09 21:45:21" itemprop="dateCreated datePublished" datetime="2017-07-09T21:45:21+08:00">2017-07-09</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>离开一个地方，到一个新的地方开始学习、工作、生活，已经整整一周。</p>
+<p>与故友相逢。闲聊时她突然慨叹了一句，</p>
+<blockquote>
+<p>你还是一直都没变啊。</p>
+</blockquote>
+<p>不由地一愣：不是第一次听到别人这么说了。禁不住追问她何出此言。</p>
+<blockquote>
+<p>相貌、身材和性格，都没有变呀。</p>
+</blockquote>
+<p>原来如此，一时不知作何感想。</p>
+<p>都说唯变不变。如果没有变化，大概不是什么好事吧？有点固步自封的意味，许是长久地蜷缩在自己的舒适圈内，不曾尝试改变。</p>
+<p>又想起前几日过马路时的闪念：自己实在是活得很平庸呢。中等相貌，中等身材，连性格都是中等的不温不火，做着中等的事情。期待变化吗？期待也没有用，自己不行动，那就都是空想。需要什么样的行动？不知道。</p>
+<p>不确定自己想要什么，可能永远都成不了赢家。但是也没有过得那么迷糊——知道自己不想要什么——得，又是一种中间状态。</p>
+<p>自知是固执的人，活在自己的世界中，不情愿改变。不过也没有碰什么钉子，似乎适应能力和应变能力尚可。也可能像前面说的，是浸淫在自己的舒适圈中的缘故。</p>
+<p>在20岁前后，自认为最大的改变，是心态逐步地开放，随着阅历的加深而更懂得包容。只是这样的变化，不经过积累不易外显。样貌形体方面，一方面是懒于打理自己，一方面也是自律性和自制力不够，没有坚持过减肥；性格方面，有很多极其微小的变化，只有自己体悟得到。</p>
+<p>行文至此，不知所言。想打破舒适圈，也需要见机行事吧。且行且思，让改变发生，让改变来得更猛烈些。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/06/26/两情长久时/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/06/26/两情长久时/" class="post-title-link" itemprop="url">两情长久时</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-06-26 20:32:16" itemprop="dateCreated datePublished" datetime="2017-06-26T20:32:16+08:00">2017-06-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/观影/" itemprop="url" rel="index"><span itemprop="name">观影</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>《墨西哥人》我看了两次才看完。</p>
+<p>第一次点开看了十来分钟，觉得剧情略显拖欠，人物也缺乏吸引力——男主Jerry有点愣头青，女主Samantha则有些神经质，二人的莫名争吵让人头大。刚好手边又有事情（并不紧急），便结束了观看。</p>
+<p>一般而言，我没有一次看完的电影就不是我的菜，自然我也不会有兴趣再耗时间将其看完。但是《墨西哥人》的演员阵容颜值太高，给了我第二次点开这部影片的动力。</p>
+<p>坚持看下去才发觉影片渐入佳境，充满了反传统的奇思妙想。整个故事围绕一把枪展开，枪的背后是一个传说和一段”缘分”——如此带有点狂想色彩和黑色幽默的故事不免会得到两极化评价：喜欢的人（如我）觉得很有新意（黑帮老大谈宿命论，惊不惊喜？意不意外？），不喜欢的人觉得胡编乱造。</p>
+<p>起初我以为这是个掺杂着爱情元素的犯罪剧情片，看完才发现竟是非典型爱情片。Jerry和Samantha之间充满张力的恋情，与那把枪背后的传说相互对照，是影片意图探讨的相爱之道。不过，影片在展现Jerry与Samantha相处过程中的“剑拔弩张”时，有可能用力过度（又或许正是一种冷幽默处理），未免让人感到矫揉造作。放在中国的语境下，影片中的男女主人公就是所谓的欢喜冤家，相爱相杀而纠缠不休。</p>
+<blockquote>
+<p>You settle. You open yourself up. You become vulnerable.</p>
+</blockquote>
+<p>Jerry的朋友Ted对Jerry陷入恋爱如是评价。孤身一人无牵无挂，而恋人是一种羁绊。“爱上一个人，就好像突然有了软肋，也突然有了铠甲”。</p>
+<blockquote>
+<p>If two people love each other,<br>but they just can’t seem to get it together,<br>when do you getto that point of enough is enough? </p>
+</blockquote>
+<p>影片的经典提问。相爱容易，相守困难，何时应该选择放手？片中给出了一种答案，编剧认为的正确答案。个人对于片中的答案不能完全认同，但很赞同答案的思路：抓住最关键的。爱是重点。</p>
+<p>两情长久时，万事皆浮云。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://keimewo.site/2017/06/26/无眠/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kei">
+      <meta itemprop="description" content="<h6>每一个认真的技术人<br/>心底都有一个技术英雄梦</h6>">
+      <meta itemprop="image" content="/images/sanji.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kei's Wonderland">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2017/06/26/无眠/" class="post-title-link" itemprop="url">无眠</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-06-26 17:03:24" itemprop="dateCreated datePublished" datetime="2017-06-26T17:03:24+08:00">2017-06-26</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常/" itemprop="url" rel="index"><span itemprop="name">日常</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今日晴， 偶有大风。</p>
+<p>前天一夜无眠。也许因为天气，也许因为睡前打游戏过于兴奋，也许因为心中有纠结——做了选择，就不必再犹疑。在试错成本很低的阶段，或许不需要问太多为什么，而该多问问为什么不。</p>
+<p>既然毫无睡意，索性又玩起了游戏。想想也是好笑，从前曾通宵看书或刷剧，万万没想到，如今一把年纪了倒通宵打游戏了（说明我心态很年轻）。</p>
+<p>一年前的今天，听到了某花的告白。情理之中意料之外。彼此间没有掩饰过对对方的好感，只是关系的进退变化，并不像烧一壶开水，没有明确可把控的指标节点——究竟好感积累到什么程度才是开始一段感情的时点？凭着感觉走，可是人有时候也无法完全明白自己的心意。</p>
+<p>而今回想，不由暗自庆幸与感激，在如此多的不确定中，还是把握住了彼此。</p>
+<p>盛夏已至。耀眼的阳光、火热的空气和茂盛的草木，一切都充满了活力。这是一个适合无眠的季节。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/sanji.jpg" alt="Kei">
+            
+              <p class="site-author-name" itemprop="name">Kei</p>
+              <div class="site-description motion-element" itemprop="description"><h6>每一个认真的技术人<br>心底都有一个技术英雄梦</h6></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives">
+                
+                    <span class="site-state-item-count">17</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/wahcheung" title="GitHub &rarr; https://github.com/wahcheung" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="mailto:huachang.gong@outlook.com" title="E-Mail &rarr; mailto:huachang.gong@outlook.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://leetcode.com/wahcheung" title="LeetCode &rarr; https://leetcode.com/wahcheung" rel="noopener" target="_blank"><i class="fa fa-fw fa-trophy"></i></a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Kei</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.1"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
+
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+        // ref: https://github.com/ForbesLindesay/unescape-html
+        var unescapeHtml = function(html) {
+          return String(html)
+            .replace(/&quot;/g, '"')
+            .replace(/&#39;/g, '\'')
+            .replace(/&#x3A;/g, ':')
+            // replace all the other &#x; chars
+            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&amp;/g, '&');
+        };
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                content = unescapeHtml(content);
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+  
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
+<!-- 页面点击烟花特效 -->
+
+  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+  <script type="text/javascript" src="/js/anime.min.js"></script>
+  <script type="text/javascript" src="/js/fireworks.js"></script>
+
